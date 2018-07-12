@@ -21,27 +21,27 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site' /* title for your website */,
-  tagline: 'A website for testing',
-  url: 'https://your-docusaurus-test-site.com' /* your website url */,
-  baseUrl: '/' /* base url for your project */,
+  title: 'SampleOSS Project Website and Documentation' /* title for your website */,
+  tagline: 'OSS docosaurus template for wix.com OSS prjects',
+  url: 'https://wix-incubator.github.io' /* your website url */,
+  baseUrl: '/oss-docosaurus-template-draft/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: 'oss-docosaurus-template-test',
+  organizationName: 'wix-incubator',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {doc: 'doc1', label: 'DocsWix'},
+    {doc: 'doc4', label: 'APIWix'},
+    {page: 'help', label: 'HelpWix'},
+    {blog: true, label: 'BlogWix'},
   ],
 
   // If you have users set above, you add it here:
@@ -74,7 +74,7 @@ const siteConfig = {
   copyright:
     'Copyright © ' +
     new Date().getFullYear() +
-    ' Your Name or Your Company Name',
+    ' Wix.com ltd ',
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
