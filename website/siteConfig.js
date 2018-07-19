@@ -14,14 +14,14 @@ const users = [
     caption: 'User1',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/img/docusaurus.svg',
-    infoLink: 'https://www.facebook.com',
+    image: 'https://static.wixstatic.com/media/dae918_d3cfc86cf6194f50a9b10dfdfac0afaa~mv2.png/v1/fill/w_60,h_13,al_c,usm_0.66_1.00_0.01/dae918_d3cfc86cf6194f50a9b10dfdfac0afaa~mv2.png',
+    infoLink: 'https://wix.com',
     pinned: true,
   },
 ];
 
 const siteConfig = {
-  title: 'SampleOSS Project Website and Documentation' /* title for your website */,
+  title: 'Sample OSS Project Website and Documentation' /* title for your website */,
   tagline: 'OSS docosaurus template for wix.com OSS prjects',
   url: 'https://wix-incubator.github.io' /* your website url */,
   baseUrl: '/oss-docosaurus-template-draft/' /* base url for your project */,
@@ -30,7 +30,7 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'oss-docosaurus-template-test',
+  projectName: 'oss-docosaurus-template-draft',
   organizationName: 'wix-incubator',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
@@ -38,18 +38,18 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'DocsWix'},
-    {doc: 'doc4', label: 'APIWix'},
-    {page: 'help', label: 'HelpWix'},
-    {blog: true, label: 'BlogWix'},
+    {doc: 'doc1', label: 'Docs'},
+    {doc: 'doc4', label: 'Dev Portal'},
+    {page: 'help', label: 'Help'},
+    {blog: true, label: 'Blog'},
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
+  headerIcon: '<img id="comp-jh4j8a6aimgimage" alt="" data-type="image" style="width: 60px; height: 13px; object-fit: cover;" src="https://static.wixstatic.com/media/dae918_d3cfc86cf6194f50a9b10dfdfac0afaa~mv2.png/v1/fill/w_60,h_13,al_c,usm_0.66_1.00_0.01/dae918_d3cfc86cf6194f50a9b10dfdfac0afaa~mv2.png">',
+  footerIcon: '<img id="comp-jh4j8a6aimgimage" alt="" data-type="image" style="width: 60px; height: 13px; object-fit: cover;" src="https://static.wixstatic.com/media/dae918_d3cfc86cf6194f50a9b10dfdfac0afaa~mv2.png/v1/fill/w_60,h_13,al_c,usm_0.66_1.00_0.01/dae918_d3cfc86cf6194f50a9b10dfdfac0afaa~mv2.png">',
   favicon: 'img/favicon.png',
 
   /* colors for website */
@@ -88,8 +88,8 @@ const siteConfig = {
   onPageNav: 'separate',
 
   /* Open Graph and Twitter card images */
-  ogImage: 'img/docusaurus.png',
-  twitterImage: 'img/docusaurus.png',
+  ogImage: '<img id="comp-jh4j8a6aimgimage" alt="" data-type="image" style="width: 60px; height: 13px; object-fit: cover;" src="https://static.wixstatic.com/media/dae918_d3cfc86cf6194f50a9b10dfdfac0afaa~mv2.png/v1/fill/w_60,h_13,al_c,usm_0.66_1.00_0.01/dae918_d3cfc86cf6194f50a9b10dfdfac0afaa~mv2.png">',
+  twitterImage: '<img id="comp-jh4j8a6aimgimage" alt="" data-type="image" style="width: 60px; height: 13px; object-fit: cover;" src="https://static.wixstatic.com/media/dae918_d3cfc86cf6194f50a9b10dfdfac0afaa~mv2.png/v1/fill/w_60,h_13,al_c,usm_0.66_1.00_0.01/dae918_d3cfc86cf6194f50a9b10dfdfac0afaa~mv2.png">',
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...

@@ -5,6 +5,14 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+import React from 'react';
+import Button from 'wix-style-react/Button';
+
+const MyComponent = () =>
+  <Button onClick={() => console.log('thanks for clicking :)')}>
+    Click me!
+  </Button>;
+
 const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
@@ -33,6 +41,7 @@ class Button extends React.Component {
         <a className="button" href={this.props.href} target={this.props.target}>
           {this.props.children}
         </a>
+        <MyComponent/>
       </div>
     );
   }
@@ -124,6 +133,7 @@ const FeatureCallout = props => (
     style={{textAlign: 'center'}}>
     <h2>Feature Callout</h2>
     <MarkdownBlock>These are features of this project</MarkdownBlock>
+    <Mycomponent/>
   </div>
 );
 
@@ -209,6 +219,7 @@ class Index extends React.Component {
           <LearnHow />
           <TryOut />
           <Description />
+          <Mycomponent/>
           <Showcase language={language} />
         </div>
       </div>
