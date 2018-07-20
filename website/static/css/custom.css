@@ -3,6 +3,12 @@
 @import url("http://static.parastorage.com/services/third-party/fonts/Helvetica/fontFace.css") media-types;
 
 
+footer#footer.nav-footer {
+
+
+
+}
+
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
