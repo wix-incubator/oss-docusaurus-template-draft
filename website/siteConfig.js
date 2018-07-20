@@ -14,15 +14,15 @@ const users = [
     caption: 'User1',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: 'https://static.wixstatic.com/media/dae918_d3cfc86cf6194f50a9b10dfdfac0afaa~mv2.png/v1/fill/w_60,h_13,al_c,usm_0.66_1.00_0.01/dae918_d3cfc86cf6194f50a9b10dfdfac0afaa~mv2.png',
+    image: 'img/wix_header.png',
     infoLink: 'https://wix.com',
     pinned: true,
   },
 ];
 
 const siteConfig = {
-  title: 'Sample OSS Project Website and Documentation' /* title for your website */,
-  tagline: 'OSS docosaurus template for wix.com OSS prjects',
+  title: 'Quix' /* title for your website */,
+  tagline: 'Insights, data trends, and customer behavior metrics collected from the combines external data from multiple sources.',
   url: 'https://wix-incubator.github.io' /* your website url */,
   baseUrl: '/oss-docosaurus-template-draft/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -38,25 +38,29 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'Dev Portal'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {doc: 'discover/getting_started', label: 'discover'},
+    {doc: 'basic_use/intro', label: 'use'},
+    {doc: 'doc6', label: 'develop'},
+    {doc: 'doc8', label: 'learn'},
+    {page: 'help', label: 'contribute'},
+    { search: true },
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: '<img id="comp-jh4j8a6aimgimage" alt="" data-type="image" style="width: 60px; height: 13px; object-fit: cover;" src="https://static.wixstatic.com/media/dae918_d3cfc86cf6194f50a9b10dfdfac0afaa~mv2.png/v1/fill/w_60,h_13,al_c,usm_0.66_1.00_0.01/dae918_d3cfc86cf6194f50a9b10dfdfac0afaa~mv2.png">',
-  footerIcon: '<img id="comp-jh4j8a6aimgimage" alt="" data-type="image" style="width: 60px; height: 13px; object-fit: cover;" src="https://static.wixstatic.com/media/dae918_d3cfc86cf6194f50a9b10dfdfac0afaa~mv2.png/v1/fill/w_60,h_13,al_c,usm_0.66_1.00_0.01/dae918_d3cfc86cf6194f50a9b10dfdfac0afaa~mv2.png">',
+  headerIcon: 'img/wix_header2.png',
+  footerIcon: 'img/wix.png',
   favicon: 'img/favicon.png',
 
   /* colors for website */
   colors: {
     primaryColor: '#EB5E51',
-    secondaryColor: '#FFFFFF',
+    secondaryColor: '#EB5E51',
   },
+
+  cleanUrl: true,
 
   /* custom fonts for website */
   /*fonts: {
@@ -88,8 +92,14 @@ const siteConfig = {
   onPageNav: 'separate',
 
   /* Open Graph and Twitter card images */
-  ogImage: '<img id="comp-jh4j8a6aimgimage" alt="" data-type="image" style="width: 60px; height: 13px; object-fit: cover;" src="https://static.wixstatic.com/media/dae918_d3cfc86cf6194f50a9b10dfdfac0afaa~mv2.png/v1/fill/w_60,h_13,al_c,usm_0.66_1.00_0.01/dae918_d3cfc86cf6194f50a9b10dfdfac0afaa~mv2.png">',
-  twitterImage: '<img id="comp-jh4j8a6aimgimage" alt="" data-type="image" style="width: 60px; height: 13px; object-fit: cover;" src="https://static.wixstatic.com/media/dae918_d3cfc86cf6194f50a9b10dfdfac0afaa~mv2.png/v1/fill/w_60,h_13,al_c,usm_0.66_1.00_0.01/dae918_d3cfc86cf6194f50a9b10dfdfac0afaa~mv2.png">',
+  ogImage: 'img/wix.png',
+  twitterImage: 'img/wix.png',
+
+  algolia: {
+    apiKey: 'my-api-key',
+    indexName: 'my-index-name',
+    algoliaOptions: {} // Optional, if provided by Algolia
+  },
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...

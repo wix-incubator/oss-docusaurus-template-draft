@@ -5,14 +5,6 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import React from 'react';
-import Button from 'wix-style-react/Button';
-
-const MyComponent = () =>
-  <Button onClick={() => console.log('thanks for clicking :)')}>
-    Click me!
-  </Button>;
-
 const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
@@ -41,7 +33,6 @@ class Button extends React.Component {
         <a className="button" href={this.props.href} target={this.props.target}>
           {this.props.children}
         </a>
-        <MyComponent/>
       </div>
     );
   }
@@ -85,13 +76,12 @@ class HomeSplash extends React.Component {
     let language = this.props.language || '';
     return (
       <SplashContainer>
-        <Logo img_src={imgUrl('docusaurus.svg')} />
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
             <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html', language)}>Example Link</Button>
-            <Button href={docUrl('doc2.html', language)}>Example Link 2</Button>
+            <Button href={docUrl('getting_started.html', language)}>Get Started</Button>
+            <Button href={docUrl('advanced_use/roles_and_use_cases.html', language)}>Advanced Use</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -113,13 +103,13 @@ const Features = props => (
     {[
       {
         content: 'This is the content of my feature',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('wix.png'),
         imageAlign: 'top',
         title: 'Feature One',
       },
       {
         content: 'The content of my second feature',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('wix.png'),
         imageAlign: 'top',
         title: 'Feature Two',
       },
@@ -133,7 +123,6 @@ const FeatureCallout = props => (
     style={{textAlign: 'center'}}>
     <h2>Feature Callout</h2>
     <MarkdownBlock>These are features of this project</MarkdownBlock>
-    <Mycomponent/>
   </div>
 );
 
@@ -142,9 +131,9 @@ const LearnHow = props => (
     {[
       {
         content: 'Talk about learning how to use this',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('wix.png'),
         imageAlign: 'right',
-        title: 'Learn How',
+        title: 'Learn Now',
       },
     ]}
   </Block>
@@ -155,7 +144,7 @@ const TryOut = props => (
     {[
       {
         content: 'Talk about trying this out',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('wix.png'),
         imageAlign: 'left',
         title: 'Try it Out',
       },
@@ -218,9 +207,6 @@ class Index extends React.Component {
           <FeatureCallout />
           <LearnHow />
           <TryOut />
-          <Description />
-          <Mycomponent/>
-          <Showcase language={language} />
         </div>
       </div>
     );
