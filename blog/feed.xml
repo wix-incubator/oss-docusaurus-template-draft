@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>SampleOSS Project Website and Documentation Blog</title>
+        <title>Quix Blog</title>
         <link>https://wix-incubator.github.io/oss-docosaurus-template-draft/blog</link>
-        <description>The best place to stay up-to-date with the latest SampleOSS Project Website and Documentation news and events.</description>
+        <description>The best place to stay up-to-date with the latest Quix news and events.</description>
         <lastBuildDate>Tue, 24 Oct 2017 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
-            <title>SampleOSS Project Website and Documentation Blog</title>
-            <url>https://wix-incubator.github.io/oss-docosaurus-template-draft/img/docusaurus.svg</url>
+            <title>Quix Blog</title>
+            <url>https://wix-incubator.github.io/oss-docosaurus-template-draft/img/wix_header2.png</url>
             <link>https://wix-incubator.github.io/oss-docosaurus-template-draft/blog</link>
         </image>
         <copyright>Copyright © 2018 Wix.com ltd </copyright>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wix-incubator.github.io/oss-docosaurus-template-draft/blog</id>
-    <title>SampleOSS Project Website and Documentation Blog</title>
+    <title>Quix Blog</title>
     <updated>2017-10-24T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://wix-incubator.github.io/oss-docosaurus-template-draft/blog"/>
-    <subtitle>The best place to stay up-to-date with the latest SampleOSS Project Website and Documentation news and events.</subtitle>
-    <logo>https://wix-incubator.github.io/oss-docosaurus-template-draft/img/docusaurus.svg</logo>
+    <subtitle>The best place to stay up-to-date with the latest Quix news and events.</subtitle>
+    <logo>https://wix-incubator.github.io/oss-docosaurus-template-draft/img/wix_header2.png</logo>
     <rights>Copyright © 2018 Wix.com ltd </rights>
     <entry>
         <title type="html"><![CDATA[New Version 1.0.0]]></title>
