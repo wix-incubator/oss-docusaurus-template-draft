@@ -42,6 +42,7 @@ const siteConfig = {
     {doc: 'basic_use/intro', label: 'use'},
     {doc: 'doc6', label: 'develop'},
     {doc: 'doc8', label: 'learn'},
+    {doc: 'formatting', label: 'format'},
     {page: 'help', label: 'contribute'},
     { search: true },
   ],

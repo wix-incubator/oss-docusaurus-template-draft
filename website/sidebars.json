@@ -15,6 +15,6 @@
     "Troubleshooting": ["doc7"]
   },
   "other": {
-    "Other": ["doc8", "doc9"]
+    "Other": ["formatting","doc8", "doc9"]
   }
 }
