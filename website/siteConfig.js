@@ -24,13 +24,13 @@ const siteConfig = {
   title: 'Quix' /* title for your website */,
   tagline: 'Insights, data trends, and customer behavior metrics collected from the combines external data from multiple sources.',
   url: 'https://wix-incubator.github.io' /* your website url */,
-  baseUrl: '/oss-docosaurus-template-draft/' /* base url for your project */,
+  baseUrl: '/oss-docusaurus-template-draft/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'oss-docosaurus-template-draft',
+  projectName: 'oss-docusaurus-template-draft',
   organizationName: 'wix-incubator',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
