@@ -44,5 +44,5 @@
 <url> <loc>https://wix-incubator.github.io/docs/doc9</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wix-incubator.github.io/docs/doc9" /> </url>
 <url> <loc>https://wix-incubator.github.io/docs/doc4</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wix-incubator.github.io/docs/doc4" /> </url>
 <url> <loc>https://wix-incubator.github.io/docs/doc5</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wix-incubator.github.io/docs/doc5" /> </url>
-<url> <loc>https://wix-incubator.github.io/docs</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wix-incubator.github.io/docs" /> </url>
+<url> <loc>https://wix-incubator.github.io/docs/formatting</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wix-incubator.github.io/docs/formatting" /> </url>
 </urlset>
