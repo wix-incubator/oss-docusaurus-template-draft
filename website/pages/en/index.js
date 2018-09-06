@@ -58,7 +58,7 @@ const Logo = props => (
 
 const ProjectTitle = props => (
   <h2 className="projectTitle">
-    {siteConfig.title}
+    {siteConfig.title_splash}
     <small>{siteConfig.tagline}</small>
   </h2>
 );
@@ -99,19 +99,25 @@ const Block = props => (
 );
 
 const Features = props => (
-  <Block layout="fourColumn">
+  <Block layout="threeColumn">
     {[
       {
-        content: 'This is the content of my feature',
+        content: 'Plain text. Simple markdown.',
         image: imgUrl('wix.png'),
         imageAlign: 'top',
-        title: 'Feature One',
+        title: 'Easy editing',
       },
       {
-        content: 'The content of my second feature',
+        content: 'Treat documentation as code. Use version control, issue tracking, reviews, and automated tests, using the same infrastructure and tools you use for development. ',
+        image: imgUrl('github.png'),
+        imageAlign: 'top',
+        title: 'Docs-as-code',
+      },
+      {
+        content: 'With GitHub flavoured markdown, get a 100% working preview of your doc files online in github.',
         image: imgUrl('wix.png'),
         imageAlign: 'top',
-        title: 'Feature Two',
+        title: 'Tidy preview',
       },
     ]}
   </Block>

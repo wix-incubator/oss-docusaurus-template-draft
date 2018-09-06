@@ -21,8 +21,9 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Quix' /* title for your website */,
-  tagline: 'Insights, data trends, and customer behavior metrics collected from the combines external data from multiple sources.',
+  title: 'docs' /* title for your website, shows next to the logo */,
+  title_splash: 'Wix docusaurus template',
+  tagline: 'Everything you need to jump-start your open source project documentation: template, samples, and guidance.',
   url: 'https://wix-incubator.github.io' /* your website url */,
   baseUrl: '/oss-docusaurus-template-draft/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
